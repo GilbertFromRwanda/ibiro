@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#main{
+  background: #dddddd36;
+  height: 550px!important;
+
+}
+.showcase{
+  color: #1b1c1da1;
+  margin-bottom: 50px;
+}
+#represent{
+  font-size: 60px;
+  margin-right: 40px;
+}
+.item{
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #black;
+}
+.suggestionLink{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: black;
+}
+.item-intro{
+  color: #333;
+  font-size: 3rem!important;
+}
+.sector{
+  font-family: 'Righteous', cursive;
+  font-size: 2.1rem;
+  color: black;
+}
+#colmn{
+  border-right: 4px solid #ddd;
+}
+#colmn:hover{
+  padding: 2px 2px;
+  border-right: 4px solid #6bbce0;
+}
+
+h5{
+  text-align: center;
+}
+.dash-color{
+  color: ##009688!important;
+}
+/**/
+.menu-dash{
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
+  top: 0;
+  margin-top: 0px;
+  z-index: 100;
+  padding-top: 20px;
+}
+#load-menu{
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+.dash-menu{
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  background:#ffff;
+  z-index: 50;
+  top: 0;
+  right: 0;
+  padding-top: 60px;
+  display: none;
+  box-shadow: 0px -1px 1px 0px #ddd;
+}
+.item-menu{
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.sector-menu{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+#show-case-menu{
+  margin-bottom: 20px!important;
+}
+.sugBox{
+  width: 40px;
+  margin-left: 0px;
+}
+#formIgitekerezo{
+  background: #fff;
+}
+.boxing-header{
+  padding-bottom: 10px;
+}
+.boxing-title{
+  text-align: left;
+  color: #333;
+  font-family: 'Righteous', cursive;
+}
+#texting-area{
+  background: none;
+  border-top: 1px solid #fff;
+  border-left: none!important;
+  border-right: none!important;
+  border-radius: 0px!important;
+  border-bottom: none!important;
+  height: 150px;
+  color:#333;
+}
+
+#idea{
+  margin-bottom: 0px;
+  border:1px solid #ffffffb0;
+  border-radius: 4px;
+}
+#idea label{
+  color: #333;
+  font-weight: normal;
+  padding: 5px;
+}
+#idea input[type="radio"]{
+  padding: 5px;
+}
+
+.line{
+  color: #333;
+  padding-right: 20px;
+}
+.radios{
+  padding: 5px;
+}
+.saveBtn{
+  border-radius: 5px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+  background: none;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  padding: 0 28px;
+  background: #0084ff;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 150ms;
+  width: 100%;
+  margin-top: 5px;
+}
+/**/
+@media screen and (max-width:768px) {
+  .dash-menu{
+    width: 100%;
+    padding-top: 60px;
+  }
+  #represent{
+    margin-right: 10px;
+  }
+}

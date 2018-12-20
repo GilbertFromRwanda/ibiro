@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre:400,700&subset=hebrew,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Galada|Inconsolata|Open+Sans|Oswald|Paytone+One|Roboto');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Miriam libre",cursive;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.display-content{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background:#dddddd36;
+}
+.leaderImg-display img{
+  width:100%;
+  max-height: 230px;
+}
+.leader-menu{
+  width: 50%;
+  float: left;
+}
+.leader-menu label{
+  display: block;
+  padding-top: 5px;
+}
+.mainTitle{
+  font-family: 'Inconsolata', monospace;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+}
+.leader-content{
+  padding-top: 4px;
+}
+.leader-name{
+  font-size: 17px;
+  color: #404692;
+}

@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Miriam libre",cursive;
+}
+body{
+  padding: 20px;
+  font-family: "Miriam libre",cursive!important;
+  background: #3f51b5c4!important;
+  padding-top: 10px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none!important;
+}
+.introduction{
+  color: #fff;
+  text-align: center;
+}
+.dashboard-all{
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background: #fcfcfc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding-bottom: 40px;
+}
+header{
+  position: relative;
+  width: 100%;
+  height:65px;
+  background: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.logo{
+  display: inline-block;
+  padding: 10px;
+  padding-left: 20px;
+}
+.logo-img{
+  width: 45px;
+}
+.navigation-bar{
+  float: right;
+}
+.navigation-bar li{
+  float: left;
+  padding: 10px;
+  margin: 15px;
+}
+.navigation-bar li:hover{
+  border-right: 4px solid #673AB7;
+}
+.navigation-bar a{
+  text-transform: uppercase;
+}
+.menu-title{
+  color: #999;
+  font-size: 13px;
+}
+#menu-icon{
+  font-size: 12px;
+  position: relative;
+  color: #673AB7;
+  padding-right: 1px;
+  display: inline-block;
+}
+.empid{
+  width: 30%;
+  padding: 4px;
+  display: inline-block;
+  border: 3px solid gray;
+
+}
+.sub-menu{
+  position: absolute;
+  height: auto;
+  background: #fff;
+  margin-top: 14px;
+  box-shadow: 0px 2px 4px 0px #ddd;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: none;
+}
+.sub-menu li{
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 8px;
+}
+.sub-menu li:hover{
+  border-right: none;
+}
+.menu-title:hover{
+  color: #3f51b5c4;
+}
+/**/
+.dashboard-main{
+  margin: 30px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px 0px #ddd;
+}
+.main-header{
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+.main-header h5{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.form{
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#group label{
+  color: #999;
+}
+#group input[type="text"],#group input[type="password"],#group input[type="file"],#group input[type="date"],
+#group input[type="time"]{
+  height: 45px!important;
+  border-radius: 4px!important;
+  outline: none;
+  box-shadow: none;
+}
+#group input[type="file"]{
+  padding-top: 10px!important;
+}
+.form-control:focus{
+  border:1px solid #ddd;
+}
+input[type="submit"]{
+  margin-top: 5px!important;
+  border-radius: 3px!important;
+  height: 45px!important;
+  margin-bottom: 10px!important;
+  text-transform: uppercase;
+  font-size: 12px!important;
+}
+#dropDown{
+  min-width: 100px!important;
+}
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #ddd!important;
+    height: 50px!important;
+    color: #999!important;
+}
+#emp-image{
+  width: 60px;
+  border-radius: 2px;
+}
+#others{
+  margin-left: -50px!important;
+  margin-right: -50px!important;
+}
+#humbuger{
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  body{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  .dashboard-main{
+    margin: 10px!important;
+  }
+  #others{
+    margin-left: -15px!important;
+    margin-right: -15px!important;
+  }
+  .form{
+    padding: 1px;
+    padding-left: 4px!important;
+    padding-right: 4px!important;
+  }
+  header{
+    height: auto;
+  }
+  .navigation-bar{
+    display: none;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+  }
+  .navigation-bar li{
+    float: none;
+    padding: 10px;
+    margin: 15px;
+  }
+  .navigation-bar li:hover{
+    border-left: 2px solid #673AB7;
+    border-right: none;
+  }
+  .sub-menu{
+    position: relative;
+    height: auto;
+    margin-top: 14px;
+    margin-left: -20px;
+    box-shadow: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: none;
+  }
+  .sub-menu li{
+    border-left: none;
+  }
+  .sub-menu li:hover{
+    border-left: none;
+  }
+  #humbuger{
+    float: right;
+  display: block;
+  font-size: 24px;
+  margin: 10px;
+  color: #6b79c6;
+  margin-top: 15px;
+  cursor: pointer;
+  }
+
+}
